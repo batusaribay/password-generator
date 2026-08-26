@@ -1,6 +1,6 @@
 # password-generator
 
-Cryptographically secure password generator
+Cryptographically secure password generator.
 
 ## Why
 
@@ -59,10 +59,14 @@ password-generator -c --clipboard-timeout 0    # copy, never auto-clear
 
 ## Installation
 
-Requirements: Python 3.10+, [`uv`](https://docs.astral.sh/uv/), and, if on Linux, `xclip` or `xsel` (for clipboard support).
+Requirements: [`uv`](https://docs.astral.sh/uv/) and if on Linux, `xclip` or `xsel` (for clipboard support).
 
 ```bash
 uv tool install git+https://github.com/p4p2r0/password-generator
+```
+
+```bash
+password-generator
 ```
 
 ## License
