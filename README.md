@@ -62,7 +62,7 @@ password-generator -c --clipboard-timeout 0    # copy, never auto-clear
 Requirements: [`uv`](https://docs.astral.sh/uv/) and if on Linux, `xclip` or `xsel` (for clipboard support).
 
 ```bash
-uv tool install git+https://github.com/p4p2r0/password-generator
+uv tool install git+https://github.com/batusaribay/password-generator
 ```
 
 ```bash
